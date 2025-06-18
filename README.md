@@ -2,7 +2,7 @@
 
 A comprehensive disaster response platform built with React, Node.js, Express, and Supabase. This platform aggregates real-time data to aid disaster management with advanced features including location extraction, geospatial queries, social media monitoring, and image verification.
 
-## 🚀 Features
+##  Features
 
 ### Core Functionality
 - **Disaster Data Management**: Complete CRUD operations with audit trails and ownership tracking
@@ -24,7 +24,7 @@ A comprehensive disaster response platform built with React, Node.js, Express, a
 - **Role-Based Access**: Authentication with different permission levels
 - **Real-Time Dashboard**: Live updates with WebSocket notifications
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 ### Backend
 - **Node.js** with Express.js
@@ -45,14 +45,14 @@ A comprehensive disaster response platform built with React, Node.js, Express, a
 - **Twitter API** (with mock fallback)
 - **Web scraping** for official updates
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js 18+ and npm
 - Supabase account and project
 - Google Gemini API key
 - (Optional) Google Maps API key or Mapbox token
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone and Install
 ```bash
@@ -113,7 +113,7 @@ This starts both the backend server (port 3001) and frontend (port 5173).
 - **Audit Trails**: Complete change tracking
 - **Geospatial Functions**: Distance-based resource finding
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Disasters
 - `GET /api/disasters` - List disasters with filtering
@@ -137,7 +137,7 @@ This starts both the backend server (port 3001) and frontend (port 5173).
 ### Verification
 - `POST /api/verification/:disasterId` - Verify image authenticity
 
-## 🔄 Real-Time Features
+##  Real-Time Features
 
 ### WebSocket Events
 - `disaster_updated` - Disaster CRUD operations
@@ -153,7 +153,7 @@ This starts both the backend server (port 3001) and frontend (port 5173).
 - **Resource Updates**: 15-minute availability updates
 - **Daily Summaries**: Midnight statistical reports
 
-## 🔐 Authentication & Authorization
+##  Authentication & Authorization
 
 ### Mock Users (Development)
 - **netrunnerX**: Admin with full permissions
@@ -168,7 +168,7 @@ This starts both the backend server (port 3001) and frontend (port 5173).
 - **delete**: Remove records
 - **verify**: Verify images and reports
 
-## 🎨 Frontend Features
+##  Frontend Features
 
 ### Components
 - **DisasterCard**: Rich disaster display with real-time updates
@@ -194,7 +194,7 @@ This starts both the backend server (port 3001) and frontend (port 5173).
 ### API Testing
 All endpoints include comprehensive error handling and validation.
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend (Render/Railway)
 ```bash
@@ -211,7 +211,7 @@ npm run build
 ### Environment Variables
 Ensure all production environment variables are configured in your deployment platform.
 
-## 📝 Development Notes
+##  Development Notes
 
 ### AI Tool Usage
 This project was built with assistance from AI coding tools for:
@@ -227,7 +227,7 @@ This project was built with assistance from AI coding tools for:
 - **Background Processing**: Non-blocking data updates
 - **Connection Pooling**: Efficient database connections
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -235,11 +235,8 @@ This project was built with assistance from AI coding tools for:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
 
-This project is licensed under the MIT License.
-
-## 🆘 Support
+##  Support
 
 For issues and questions:
 1. Check the GitHub issues
